@@ -3,7 +3,7 @@
 ## Usage
 ```hcl
 module "ec2" {
-  source = ""
+  source = "Eldiiar7442/vpc/module"
   version = "0.0.1"
   region = "us-east-2"
   cidr_vpc = "10.0.0.0/16"
